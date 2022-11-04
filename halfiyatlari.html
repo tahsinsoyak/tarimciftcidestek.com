@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Tarım Çiftçi Destek</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,,600,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <script src=
+  "https://code.jquery.com/jquery-3.5.1.js">
+      </script>
+  
+</head>
+
+<body class="sub_page" onload="makeTableScroll();">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="menu_btn-style ">
+            <button onclick="closeNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <a class="" href="index.html">
+              Anasayfa
+            </a>
+            <a class="" href="about.html">
+              Hakkımızda
+            </a>
+            <a class="" href="index.html">
+              Ne Yapıyoruz?
+            </a>
+            <a class="active" href="halfiyatlari.html">
+              Hal Fiyatları
+            </a>
+            <a class="" href="converter.html">
+              Döviz Çevrim
+            </a>
+            <a class="" href="weather.html">
+              Hava Durumu
+            </a>
+            <a class="" href="http://ziraatdestek.online/">
+              Ziraat Destek
+            </a>
+            <a class="" href="contact.html">
+              İletişim
+            </a>
+            <a class="active" href="contact.html">
+              İletişim
+            </a>
+          </div>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <span>
+            TARIM ÇİFTÇİ DESTEK
+          </span>
+        </a>
+        <div class="user_option">
+          <form class="form-inline">
+          </form>
+          <a href="comingsoon.html">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- choose section -->
+
+  <section class="info_section layout_padding section_pl">
+    <div class=".center ">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="   İl ismi giriniz..">
+        <table id="myTable" class="table">
+              <tr >
+                <th scope="col">Hal İsmi</th>
+                <th scope="col">Ürün İsmi</th>
+                <th scope="col">Birim</th>
+                <th scope="col">En Düşük Fiyat</th>
+                <th scope="col">En Yüksek Fiyat</th>
+              </tr>
+          </table>
+    </div>
+    
+  </section>
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding section_pl">
+    <div class="container">
+      <div class="info_logo">
+        <a href="">
+          Çiftçi Destek
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h4>
+              Adres
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://www.google.com/maps/dir//Yozgat+Bozok+%C3%9Cniversitesi+M%C3%BChendislik+Mimarl%C4%B1k+Fak%C3%BCltesi+Atat%C3%BCrk+Yolu+Bozok+%C3%9Cnv.+Erdo%C4%9Fan+Akda%C4%9F+Kamp%C3%BCs%C3%BC+7.+km+66100+Azizli%2FYozgat+Merkez%2FYozgat/@39.7728659,34.7954146,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x408076b7d6b5c93d:0x42d6e2c36136e01f"
+                target=”_blank”>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Konum
+                </span>
+
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Ara +90 123456789
+                </span>
+              </a>
+              <a href="mailto:leafgruntstudio@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  Email : leafgruntstudio@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_link_box">
+            <h4>
+              Bağlantılar
+            </h4>
+            <div class="info_links">
+              <a class="" href="index.html">
+                Anasayfa
+              </a>
+              <a class="" href="about.html">
+                Hakkımızda
+              </a>
+              <a class="" href="index.html">
+                Ne Yapıyoruz?
+              </a>
+              <a class="active" href="halfiyatlari.html">
+                Hal Fiyatları
+              </a>
+              <a class="" href="converter.html">
+                Döviz Çevrim
+              </a>
+              <a class="" href="weather.html">
+                Hava Durumu
+              </a>
+              <a class="" href="http://ziraatdestek.online/">
+                Ziraat Destek
+              </a>
+              <a class="" href="contact.html">
+                İletişim
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_detail">
+            <h4>
+              Hakkımızda
+            </h4>
+            <p>
+              Bu proje Tübitak 2209 Kapsamında yapılmıştır.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h4>
+            Bültene Abone Ol
+          </h4>
+          <form action="">
+            <input type="text" placeholder="Email Adresiniz" />
+            <button type="submit">
+              Kaydet
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+        <a href="https://www.linkedin.com/in/tahsin-soyak-669650231/">Suntheo</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+  <script>
+    $(document).ready(function () {
+
+        // FETCHING DATA FROM JSON FILE
+        $.getJSON("src/halfiyatlari.json", 
+                function (data) {
+            var student = '';
+
+            // ITERATING THROUGH OBJECTS
+            $.each(data, function (key, value) {
+
+                //CONSTRUCTION OF ROWS HAVING
+                // DATA FROM JSON OBJECT
+                student += '<tr>';
+                student += '<td>' + 
+                    value.halismi + '</td>';
+
+                student += '<td>' + 
+                    value.urunismi + '</td>';
+
+                student += '<td>' + 
+                    value.birim + '</td>';
+
+                student += '<td>' + 
+                    value.endusukfiyat + '</td>';
+
+                student += '<td>' +
+                    value.enyuksekfiyat + '</td';
+
+                student += '</tr>';
+            });
+              
+            //INSERTING ROWS INTO TABLE 
+            $('#myTable').append(student);
+        });
+    });
+</script>
+
+<script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+    
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
